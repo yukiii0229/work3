@@ -87,7 +87,7 @@
           <tr>
             <td>
               <input type="name" name="name" placeholder="名前"
-              value="{{old('name')}}">
+              value="{{('name')}}">
             </td>
           </tr>
 
@@ -100,7 +100,7 @@
           <tr>
             <td>
               <input type="mail" name="mail" placeholder="メールアドレス"
-              value="{{old('mail')}}">
+              value="{{('mail')}}">
             </td>
           </tr>
 
@@ -114,12 +114,12 @@
             <td>
               <input type="password" name="password"
               placeholder="パスワード"
-              value="{{old('password')}}">
+              value="{{('password')}}">
             </td>
           </tr>
           <tr>
             <td>
-              <input type="password" name="password_check"
+              <input type="password_confirmation" name="password_check"
               placeholder="確認用パスワード">
             </td>
           </tr>
